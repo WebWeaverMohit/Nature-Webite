@@ -1,0 +1,604 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+#page1{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1507327160427-b29d8a92f971?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Ymx1ZSUyMHN1bnNldHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    position: relative;
+}
+
+#page1 #tr1{
+    height: 35px;
+    width: 120px;
+    background-color: bisque;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    right: 4%;
+    top: 2%;
+}
+
+#page1 h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 4%;
+    left: 50%;
+}
+
+#page1 h2{
+    color: rgb(233, 204, 15);
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 600;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 33%;
+    left: 50%;
+}
+
+#page1 h3{
+    color: white;
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 42%;
+    left: 50%;
+}
+
+#page1 p{
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 51%;
+    left: 50%;
+}
+
+#page1 h4{
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 75%;
+    left: 8%;
+}
+
+#page1 #tl1{
+    font-weight: 1000;
+    font-size: 20px;
+    position: absolute;
+    left: 4%;
+    top: 2%;
+    display: flex;
+    gap: 20px;
+}
+
+#page2{
+    width: 100%;
+    height: 120vh;
+    position: relative;
+    background-color: #333;
+}
+
+#page2 #tc1 h1{
+    text-align: center;
+    top: 10%;
+    position: absolute;
+    text-transform: uppercase;
+    color: white;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#page2 #tc1 p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 20%;
+}
+
+#tc1 p span{
+    font-weight: 800;
+}
+
+#page2 #tc2 #p1 h1{
+    color: blanchedalmond;
+    font-size: 40px;
+    font-weight: 500;
+    position: absolute;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    top: 37%;
+}
+
+#page2 #tc2 #p1 h2{
+    color: blanchedalmond;
+    font-size: 40px;
+    font-weight: 500;
+    position: absolute;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    top: 37%;
+}
+
+#page2 #tc2 #p1 h3{
+    color: blanchedalmond;
+    font-size: 40px;
+    font-weight: 500;
+    position: absolute;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    top: 37%;
+}
+
+#page2 #tc2 #p1 h4{
+    color: blanchedalmond;
+    font-size: 40px;
+    font-weight: 500;
+    position: absolute;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    top: 37%;
+}
+
+#page2 #tc2 #p2 h1{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    top: 43%;
+    text-transform: uppercase;
+}
+
+#page2 #tc2 #p2 h2{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    top: 43%;
+    text-transform: uppercase;
+}
+
+#page2 #tc2 #p2 h3{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    top: 43%;
+    text-transform: uppercase;
+}
+
+#page2 #tc2 #p2 h4{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    top: 43%;
+    text-transform: uppercase;
+}
+
+#page2 #cc2 #img21{
+    height: 450px;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 3%;
+}
+
+#page2 #cc2 #img22{
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    top: 48%;
+    right: 7%;
+}
+
+#page2 #cc2 h1{
+    color: blanchedalmond;
+    font-size: 100px;
+    position: absolute;
+    left: 14%;
+    top: 55%;
+}
+
+#page2 #cc2 h2{
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    left: 29%;
+    top: 60%;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+#page2 #cc2 p{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    left: 13%;
+    top: 84%;
+    text-align: right;
+    text-transform: capitalize;
+}
+
+#page2 #cc2 h3{
+    color: rgb(61, 86, 144);
+    font-size: 20px;
+    position: absolute;
+    left: 54%;
+    top: 93%;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#page2 #cc2 h4{
+    color: rgb(61, 86, 144);
+    font-size: 20px;
+    position: absolute;
+    left: 68%;
+    top: 93%;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#page2 #tp2{
+    color: blanchedalmond;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    top: 3.5%;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#page3{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color:  rgb(1, 1, 35);
+}
+
+#page3 h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 500;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 12%;
+}
+
+#page3 p{
+    color: white;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 21%;
+    text-align: center;
+}
+
+#page3 #tp3{
+    color: blanchedalmond;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#page3 #img1{
+    width: 200px;
+    height: 230px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 30%;
+    top: 45%;
+}
+
+#page3 #img2{
+    width: 200px;
+    height: 230px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 30%;
+    top: 80%;
+}
+
+#page3 #img3{
+    width: 200px;
+    height: 230px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 45%;
+}
+
+#page3 #img4{
+    width: 200px;
+    height: 230px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 80%;
+}
+#page3 #img5{
+    width: 200px;
+    height: 230px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 70%;
+    top: 45%;
+}
+
+#page3 #img6{
+    width: 200px;
+    height: 230px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 70%;
+    top: 80%;
+}
+
+#page4{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background-image: url(https://images.unsplash.com/photo-1542159919831-40fb0656b45a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHN1bnNldHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+}
+
+#page4 #i4{
+    font-size: 50px;
+    color: blanchedalmond;
+    display: flex;
+    gap: 900px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 40%;
+}
+
+#page4 p{
+    font-size: 20px;
+    font-weight: 700;
+    color:darkblue;
+    position: absolute;
+    left: 40%;
+    top: 33%;
+}
+
+#page4 h1{
+    font-size: 20px;
+    font-weight: 750;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+
+#page4 #img1{
+    width: 90px;
+    height: 70px;
+    position: absolute;
+    left: 27%;
+    top: 34%;
+}
+
+#page4 h2{
+    color: blanchedalmond;
+    font-size: 50px;
+    position: absolute;
+    top: 30%;
+    left: 28%;
+}
+
+#page5{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+#page5 #img1{
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+}
+
+#page5 #tc5{
+    color: blanchedalmond;
+    font-size: 30px;
+    font-weight: 700;
+    left: 50%;
+    top: 5%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+#page5 h1{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 35px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 14%;
+    left: 50%;
+}
+
+#page5 h2{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 95%;
+    left: 50%;
+}
+
+#page5 #bc5{
+    font-size: 40px;
+    color: blanchedalmond;
+    display: flex;
+    gap: 100px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 95%;
+}
+
+#page2 #pb2{
+    font-size: 40px;
+    color: black;
+    position: absolute;
+    left: 72%;
+    top: 68%;
+}
+
+#page6{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    background-image: url(https://images.unsplash.com/photo-1497638591963-48f47856488a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bGlnaHQlMjBibHVlJTIwc3Vuc2V0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#page6 h1{
+    color: blanchedalmond;
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 12%;
+}
+
+#page6 h2{
+    color: white;
+    font-size: 55px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 19.5%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#page6 #cc6{
+    width: 125px;
+    height: 40px;
+    background-color: blanchedalmond;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 30%;
+}
+
+#page6 p{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 48%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    text-align: center;
+}
+
+#page6 p span{
+    font-weight: 800;
+    font-size: 22px;
+}
+
+#page6 h3{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+    left: 40%;
+    top: 80%;
+}
+
+#page6 h4{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+    left: 52%;
+    top: 80%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#page6 #bc6{
+    font-size: 25px;
+    color: blanchedalmond;
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    top: 88%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+}
